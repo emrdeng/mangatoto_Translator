@@ -1,0 +1,16 @@
+{
+  "name": "mangatoto_translator",
+  "version": "1.0.0",
+  "description": "Translates manga into English",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Emily Deng",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.2"
+  }
+}
