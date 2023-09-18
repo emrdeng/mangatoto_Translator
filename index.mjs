@@ -1,8 +1,13 @@
 import fetch from 'node-fetch';
 import express from 'express';
+import cors from 'cors';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+app.use(cors({
+    origin: 'https://mangatoto.com'
+}));
 
 app.use(express.json());
 
